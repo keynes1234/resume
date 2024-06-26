@@ -34,6 +34,20 @@ body::before {
   margin: auto;
 }
 
+.row {
+  display: -webkit-box;
+  padding: 3rem;
+  border-bottom: 1px solid #eee;
+}
+.row-left {
+  flex-basis: 18rem;
+  padding-right: 1rem;
+  flex-shrink: 0;
+}
+.row-right {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
 section {
   padding: 0.2rem;
 }
@@ -58,19 +72,24 @@ hr {
   line-height: 1.4;
   font-weight: 500;
 }
-.mid-paragraph{
+.mid-paragraph {
   font-size: 1rem;
-  line-height: 1.0;
+  line-height: 1;
   font-weight: 300;
 }
-ul > li::before{
+ul > li::before {
   /* position: absolute; */
   left: 0;
   display: inline-block;
-  
+
   content: "•";
   color: #3a7bd5;
 }
-ul{
+ul {
   list-style: none;
+  padding: 0;
+}
+.other {
+  padding: 3rem 0;
+  border-bottom: 1px solid #eee;
 }
