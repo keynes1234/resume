@@ -58,3 +58,14 @@ hr {
   line-height: 1.4;
   font-weight: 500;
 }
+ul > li::before{
+  /* position: absolute; */
+  left: 0;
+  display: inline-block;
+  
+  content: "•";
+  color: #3a7bd5;
+}
+ul{
+  list-style: none;
+}
