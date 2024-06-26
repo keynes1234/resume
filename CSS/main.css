@@ -58,6 +58,11 @@ hr {
   line-height: 1.4;
   font-weight: 500;
 }
+.mid-paragraph{
+  font-size: 1rem;
+  line-height: 1.0;
+  font-weight: 300;
+}
 ul > li::before{
   /* position: absolute; */
   left: 0;
